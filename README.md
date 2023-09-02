@@ -28,6 +28,12 @@ The Movie Ticket Booking System is a web application that allows users to browse
 - `showtime` (TEXT): Selected showtime for the movie.
 - `seats` (TEXT): Comma-separated list of booked seats.
 
+## Hosting "Movie Ticket Booking System" webapp using >StreamlitCommunityCloud
+
+![Deploy](https://github.com/sidh4rth7/Movie-ticket-booking-system/assets/64648070/22d42bc1-2897-4cbf-8125-b51b471bab1d)
+![deploy2](https://github.com/sidh4rth7/Movie-ticket-booking-system/assets/64648070/c6ef8be3-d74b-47b8-a9f1-f64b25525be1)
+
+
 ## Screenshots
 
 
