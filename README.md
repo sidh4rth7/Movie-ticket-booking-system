@@ -32,6 +32,14 @@ The Movie Ticket Booking System is a web application that allows users to browse
 
 
 
+![DeployApp](https://github.com/sidh4rth7/Movie-ticket-booking-system/assets/64648070/51e0892a-7dd1-4d75-9efb-6bc74916ba6f)
+![SignUp](https://github.com/sidh4rth7/Movie-ticket-booking-system/assets/64648070/9f007d3a-19c6-44c9-b76b-c362ab99007e)
+![LogInSuccess](https://github.com/sidh4rth7/Movie-ticket-booking-system/assets/64648070/69d0270a-4d43-4132-bf4b-59f6fccb9808)
+![LogInFail](https://github.com/sidh4rth7/Movie-ticket-booking-system/assets/64648070/9e405940-423c-4bae-9941-bc012c8f1eaa)
+![BrowseMovie](https://github.com/sidh4rth7/Movie-ticket-booking-system/assets/64648070/b5922e62-2415-4554-a5c8-04392b0ac11e)
+![ViewMovieByYear](https://github.com/sidh4rth7/Movie-ticket-booking-system/assets/64648070/610356ba-5fcc-4d92-a85e-6e24f6110bfb)
+![MovieBooking](https://github.com/sidh4rth7/Movie-ticket-booking-system/assets/64648070/211a41c6-7952-423f-8105-845143b0718d)
+
 ## Installation and Usage
 
 1. Clone this repository.
