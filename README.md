@@ -28,9 +28,39 @@ The Movie Ticket Booking System is a web application that allows users to browse
 - `showtime` (TEXT): Selected showtime for the movie.
 - `seats` (TEXT): Comma-separated list of booked seats.
 
+## Hosting "Movie Ticket Booking System" webapp using >StreamlitCommunityCloud
+
+![Deploy](https://github.com/sidh4rth7/Movie-ticket-booking-system/assets/64648070/22d42bc1-2897-4cbf-8125-b51b471bab1d)
+![deploy2](https://github.com/sidh4rth7/Movie-ticket-booking-system/assets/64648070/c6ef8be3-d74b-47b8-a9f1-f64b25525be1)
+
+
 ## Screenshots
 
 
+Deploying app:
+
+![DeployApp](https://github.com/sidh4rth7/Movie-ticket-booking-system/assets/64648070/51e0892a-7dd1-4d75-9efb-6bc74916ba6f)
+
+Signing up:
+
+![SignUp](https://github.com/sidh4rth7/Movie-ticket-booking-system/assets/64648070/9f007d3a-19c6-44c9-b76b-c362ab99007e)
+
+LogIn Success:
+
+![LogInSuccess](https://github.com/sidh4rth7/Movie-ticket-booking-system/assets/64648070/69d0270a-4d43-4132-bf4b-59f6fccb9808)
+
+LogIn Fail(other case):
+
+![LogInFail](https://github.com/sidh4rth7/Movie-ticket-booking-system/assets/64648070/9e405940-423c-4bae-9941-bc012c8f1eaa)
+
+Browse Movie:
+
+![BrowseMovie](https://github.com/sidh4rth7/Movie-ticket-booking-system/assets/64648070/b5922e62-2415-4554-a5c8-04392b0ac11e)
+![ViewMovieByYear](https://github.com/sidh4rth7/Movie-ticket-booking-system/assets/64648070/610356ba-5fcc-4d92-a85e-6e24f6110bfb)
+
+Movie Booking:
+
+![MovieBooking](https://github.com/sidh4rth7/Movie-ticket-booking-system/assets/64648070/211a41c6-7952-423f-8105-845143b0718d)
 
 ## Installation and Usage
 
