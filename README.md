@@ -90,6 +90,8 @@ Movie Booking:
 2. Install the required dependencies using `pip install -r requirements.txt`.
 3. Set up your database and update the connection details in `config.py`.
 4. Run the application using `streamlit run mbs_app.py`.
+   (or)
+visit the web_app using this [streamlit_link](https://movieticketbookingsystem.streamlit.app/)
 
 ## Contributing
 
