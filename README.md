@@ -12,12 +12,34 @@ The Movie Ticket Booking System is a web application that allows users to browse
 - `username` (TEXT): User's username for authentication.
 - `password` (TEXT): User's hashed password for authentication.
 
-### Movies Table
+### Movies Data Table
+
+The `movies_data` table stores information about movies available for booking. This table is populated with data from an external CSV file containing movie details.
+
+#### Table Schema
 
 - `id` (INTEGER, PRIMARY KEY AUTOINCREMENT): Unique identifier for each movie.
-- `title` (TEXT): Title of the movie.
-- `description` (TEXT): Description or summary of the movie.
-- `release_year` (INTEGER): Year of the movie's release.
+- `movie_name` (TEXT): The name or title of the movie.
+- `theatre_name` (TEXT): The name of the theatre where the movie is being screened.
+- `theatre_location` (TEXT): The location or address of the theatre.
+- `release_date` (TEXT): The release date of the movie.
+
+#### Description
+
+- `id`: This column serves as a unique identifier for each movie record in the table.
+
+- `movie_name`: The name or title of the movie. Users can browse and select movies by their names.
+
+- `theatre_name`: The name of the theatre where the movie is being screened. It provides information about the screening location.
+
+- `theatre_location`: The location or address of the theatre where the movie is being screened. It helps users find the theatre easily.
+
+- `release_date`: The release date of the movie. It indicates when the movie was released, allowing users to browse movies by release year.
+
+#### Usage
+
+The `movies_data` table is used to provide users with a list of available movies, including details such as the movie name, theatre name, theatre location, and release date. Users can browse and select movies for ticket booking based on this information.
+
 
 ### Bookings Table
 
