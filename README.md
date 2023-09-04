@@ -77,12 +77,17 @@ LogIn Fail(other case):
 
 Browse Movie:
 
-![BrowseMovie](https://github.com/sidh4rth7/Movie-ticket-booking-system/assets/64648070/b5922e62-2415-4554-a5c8-04392b0ac11e)
-![ViewMovieByYear](https://github.com/sidh4rth7/Movie-ticket-booking-system/assets/64648070/610356ba-5fcc-4d92-a85e-6e24f6110bfb)
+![browsemovie](https://github.com/sidh4rth7/Movie-ticket-booking-system/assets/64648070/d0892e31-e722-46aa-a222-932d7c8788ad)
+
 
 Movie Booking:
 
-![MovieBooking](https://github.com/sidh4rth7/Movie-ticket-booking-system/assets/64648070/211a41c6-7952-423f-8105-845143b0718d)
+![booktickets](https://github.com/sidh4rth7/Movie-ticket-booking-system/assets/64648070/3faa6a1d-3873-41be-80e3-ad41963f1179)
+
+Booking History:
+
+![bookinghistory](https://github.com/sidh4rth7/Movie-ticket-booking-system/assets/64648070/fad1d1cf-0142-4fb0-a92d-0b725bfc9e6a)
+
 
 ## Installation and Usage
 
@@ -90,9 +95,9 @@ Movie Booking:
 2. Install the required dependencies using `pip install -r requirements.txt`.
 3. Set up your database and update the connection details in `config.py`.
 4. Run the application using `streamlit run mbs_app.py`.
-   (or)
-visit the web_app using this [streamlit_link](https://movieticketbookingsystem.streamlit.app/)
 
-## Contributing
+## (or)
+## Visit the web_app using --->[streamlit_link](https://sid-movieticketbookingsystem.streamlit.app/)
 
+## Contribution
 Contributions to this project are welcome. Please submit bug reports, feature requests, or pull requests through the GitHub repository.
