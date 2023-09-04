@@ -14,7 +14,7 @@ c.execute('''CREATE TABLE IF NOT EXISTS users
              password TEXT)''')
 
 # Create Movies table if it doesn't exist
-#c.execute('''CREATE TABLE IF NOT EXISTS movies''')
+c.execute('''CREATE TABLE IF NOT EXISTS movies''')
 
 # Create Bookings table if it doesn't exist
 c.execute('''CREATE TABLE IF NOT EXISTS bookings 
