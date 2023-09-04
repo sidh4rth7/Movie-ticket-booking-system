@@ -14,11 +14,7 @@ c.execute('''CREATE TABLE IF NOT EXISTS users
              password TEXT)''')
 
 # Create Movies table if it doesn't exist
-c.execute('''CREATE TABLE IF NOT EXISTS movies 
-             (id INTEGER PRIMARY KEY AUTOINCREMENT, 
-             title TEXT,
-             description TEXT,
-             release_year INTEGER)''')
+c.execute('''CREATE TABLE IF NOT EXISTS movies''')
 
 # Create Bookings table if it doesn't exist
 c.execute('''CREATE TABLE IF NOT EXISTS bookings 
@@ -57,7 +53,7 @@ def create_movie(title, description, release_year):
 
 # Function to get a list of movies by release year
 def get_movies_by_release_year(year):
-    c.execute("SELECT title, description FROM movies WHERE release_year = ?", (year,))
+    c.execute("SELECT movie_name, release_date FROM movies WHERE strftime('%Y', release_date) = ?", (str(year),))
     return c.fetchall()
 
 # Function to book tickets
@@ -118,16 +114,20 @@ elif option == "Login":
 if st.session_state.user:
     st.subheader("Browse Movies by Release Year")
     
-    # Movie data input
-    st.write("Movies Data Entry:")
-    movie_title = st.text_input("Title:")
-    movie_description = st.text_area("Description:")
-    release_year = st.number_input("Release Year:", min_value=1900, max_value=2100)
+    # Filter movies by release year
+    st.write("Select a release year to browse movies:")
+    selected_year = st.selectbox("Release Year:", range(1900, 2101))
     
-    if st.button("Add Movie"):
-        if movie_title and movie_description:
-            create_movie(movie_title, movie_description, release_year)
-            st.success(f"Movie '{movie_title}' added successfully.")
+    movies = get_movies_by_release_year(selected_year)
+    
+    if movies:
+        st.write(f"Movies released in {selected_year}:")
+        for movie in movies:
+            st.write(f"**Movie Name:** {movie[0]}")
+            st.write(f"**Release Date:** {movie[1]}")
+            st.write("----")
+    else:
+        st.warning("No movies found for the selected year.")
     
     # Filter movies by release year
     st.write("Select a release year to browse movies:")
