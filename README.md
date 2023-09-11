@@ -97,7 +97,7 @@ Booking History:
 4. Run the application using `streamlit run mtbs_app.py`.
 
 ## (or)
-## Visit the web_app using --->[streamlit_link](https://sid-movieticketbookingsystem.streamlit.app/)
+## Visit the web_app using --->[streamlit_link](https://movieticketbookingsystem.streamlit.app/)
 
 ## Contribution
 Contributions to this project are welcome. Please submit bug reports, feature requests, or pull requests through the GitHub repository.
